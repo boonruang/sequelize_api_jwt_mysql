@@ -1,7 +1,4 @@
 const express = require('express');
-const bcrypt = require('bcrypt');
-const JWT = require('jsonwebtoken');
-const JwtConfig = require('../config/Jwt-config');
 const router = express.Router();
 const JwtMiddleware = require('../config/Jwt-middlware');
 const Contact = require('../models/Contact');
